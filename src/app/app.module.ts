@@ -6,6 +6,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { SobreProjetoComponent } from './sobre-projeto/sobre-projeto.component';
 import { ContatoComponent } from './contato/contato.component';
 import { TrocasComponent } from './trocas/trocas.component';
+import { ResiduosComponent } from './residuos/residuos.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { TrocasComponent } from './trocas/trocas.component';
     HomePageComponent,
     SobreProjetoComponent,
     ContatoComponent,
-    TrocasComponent
+    TrocasComponent,
+    ResiduosComponent
   ],
   imports: [
     BrowserModule
